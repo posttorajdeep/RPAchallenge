@@ -42,6 +42,18 @@
             <version>5.2.3</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.guicedee.services/slf4j -->
+        <dependency>
+            <groupId>com.guicedee.services</groupId>
+            <artifactId>slf4j</artifactId>
+            <version>1.2.2.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.20.0</version>
+        </dependency>
 
 
     </dependencies>
