@@ -12,6 +12,7 @@ public class RPATest extends BaseTest {
 
     @Test
     public void RPAEnd2EndTest() {
+        System.out.println("############## Test Start #############");
         homePage = new HomePage();
         homePage.downloadExcelFile();
         homePage.startGame();
@@ -21,7 +22,7 @@ public class RPATest extends BaseTest {
 
         homePage.getScore();
         Assert.assertTrue(homePage.scoreMsg.getText().contains("100%"));
-        System.out.println("Test Success");
+        System.out.println("###################### Test Success ##################");
 
     }
 }
